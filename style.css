@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+li{
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+h4{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+sub{
+    color: grey;
+}
+
+.cards-container{
+/*     display: inline-block; */
+    margin: auto;
+/*     background: thistle; */
+    max-width: 1100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card{
+    box-shadow: 1px 1px 1px 1px lightgray;
+    margin: 10px;
+/*     margin: auto; */
+}
+
+.card-header-one{
+    background: #eed;
+    text-align: center;
+    padding: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #499;
+    border-bottom-width: 5px;
+    font-size: 24px;
+}
+
+.card-header-two{
+    background: #eed;
+    text-align: center;
+    padding: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #949;
+    border-bottom-width: 5px;
+    font-size: 24px;
+}
+
+.card-header-three{
+    background: #eed;
+    text-align: center;
+    padding: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #994;
+    border-bottom-width: 5px;
+    font-size: 24px;
+}
+
+.page-title{
+    margin: auto;
+/*     background: rosybrown; */
+    max-width: fit-content;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+}
+
+.cards{
+    display: inline-block;
+    max-width: 250px;
+}
+
+.btn{
+    margin: auto;
+    background: lightskyblue;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn:hover{
+    background: darkcyan;
+    color: white;
+}
